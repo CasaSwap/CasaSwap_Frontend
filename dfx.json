@@ -1,0 +1,20 @@
+{
+    "canisters": {
+        "frontend": {
+            "frontend": {
+                "entrypoint": "real-estate-website/index.html"
+            },
+            "source": [
+                "real-estate-website"
+            ],
+            "type": "assets"
+        }
+    },
+    "defaults": {
+        "build": {
+            "args": "",
+            "packtool": ""
+        }
+    },
+    "version": 1
+}
