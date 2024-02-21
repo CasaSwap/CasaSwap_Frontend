@@ -1,0 +1,56 @@
+export const menuLinks = [
+  {
+    header: "HomeExchange",
+    links: [
+      { title: "About", url: "/about" },
+      { title: "Our Team" },
+      { title: "Jobs" },
+      { title: "Blog" },
+      { title: "Mobile apps" },
+      { title: "Community" },
+      { title: "Press" },
+    ],
+  },
+  {
+    header: "Learn More",
+    links: [
+      { title: "Values" },
+      { title: "GuestPoints" },
+      { title: "How much does it cost?" },
+      { title: "Guarantees" },
+      { title: "Our suggestions" },
+      { title: "Invite friends" },
+    ],
+  },
+  {
+    header: "Support",
+    links: [
+      { title: "FAQ" },
+      { title: "Contact" },
+      { title: "Always there for you" },
+    ],
+  },
+  {
+    header: "Categories",
+    links: [
+      { title: "Ski Trips" },
+      { title: "Cheap Vacation" },
+      { title: "Travel USA" },
+      { title: "Facebook gruops" },
+      { title: "Thanksgiving Travel Tips" },
+      { title: "HomeExchange Academy" },
+      { title: "Against Discrimination" },
+      { title: "Guide: How To Travel" },
+      { title: "Sustainably" },
+      { title: "Our Affiliate Program" },
+      { title: "Guide: accessible" },
+      { title: "Acommodation for people with reduced mobility" },
+      { title: "Join our Webinars" },
+      { title: "Become an Influencer" },
+      { title: "Europe Travel" },
+      { title: "Pet-Friendly accommodations" },
+      { title: "Exchange Apartments" },
+      { title: "Vacation homes" },
+    ],
+  },
+];

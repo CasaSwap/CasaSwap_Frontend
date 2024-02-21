@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Averta;
+  src: url("/fonts/avertastdpe-regular.eot");
+  src: url("/fonts/avertastdpe-regular.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/avertastdpe-regular.woff2") format("woff2"),
+    url("/fonts/avertastdpe-regular.woff") format("woff"),
+    url("/fonts/avertastdpe-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Averta;
+  src: url("/fonts/avertastdpe-semibold.eot");
+  src: url("/fonts/avertastdpe-semibold.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/avertastdpe-semibold.woff2") format("woff2"),
+    url("/fonts/avertastdpe-semibold.woff") format("woff"),
+    url("/fonts/avertastdpe-semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Averta;
+  src: url("/fonts/avertastdpe-bold.eot");
+  src: url("/fonts/avertastdpe-bold.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/avertastdpe-bold.woff2") format("woff2"),
+    url("/fonts/avertastdpe-bold.woff") format("woff"),
+    url("/fonts/avertastdpe-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}

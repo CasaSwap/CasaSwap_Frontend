@@ -1,0 +1,45 @@
+{
+  "name": "casaswap",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@styled-system/css": "^5.1.5",
+    "@styled-system/should-forward-prop": "^5.1.5",
+    "@styled-system/theme-get": "^5.1.2",
+    "@types/nprogress": "^0.2.3",
+    "babel-plugin-styled-components": "^2.1.4",
+    "clsx": "^2.1.0",
+    "lodash": "^4.17.21",
+    "next": "14.1.0",
+    "next-themes": "^0.2.1",
+    "nprogress": "^0.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "react-type-animation": "^3.2.0",
+    "sharp": "^0.33.2",
+    "styled-components": "^6.1.8",
+    "styled-system": "^5.1.5",
+    "swiper": "^11.0.6"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/styled-system": "^5.1.22",
+    "@types/styled-system__css": "^5.0.21",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5"
+  }
+}
