@@ -3,6 +3,7 @@ import { Text } from "@/components/Text";
 import { Box, Container, Grid } from "@/components/Box";
 import { SliderOptions, withSlider } from "@/components/Slider";
 import Inspriation, { InspriationType } from "./elements/Inspriation";
+import { BREAKPOINTS } from "@/theme/base";
 import { InspriationalSection } from "./styles";
 import datas from "./data";
 

@@ -5,6 +5,7 @@ import {
   HowWorkView,
   InspirationalView,
   SustainableView,
+  TestimoniesView,
   WhyUseView,
 } from "@/views/home";
 
@@ -18,6 +19,7 @@ const HomePage: React.FC = () => {
         <HowWorkView />
         <InspirationalView />
         <SustainableView />
+        <TestimoniesView />
       </main>
     </LandingLayout>
   );
