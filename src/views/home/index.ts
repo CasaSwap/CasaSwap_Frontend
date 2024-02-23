@@ -5,3 +5,7 @@ export { default as HowWorkView } from "./howitworks";
 export { default as InspirationalView } from "./inspirational";
 export { default as SustainableView } from "./sustainable";
 export { default as TestimoniesView } from "./testimonies";
+export { default as PressView } from "./press";
+export { default as OldWhyView } from "./oldwhy";
+export { default as BlogView } from "./blog";
+export { default as DestinationView } from "./destinations";

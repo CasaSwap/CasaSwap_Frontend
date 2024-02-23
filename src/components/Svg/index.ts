@@ -8,6 +8,8 @@ export { default as InstagramIcon } from "./icons/Instagram";
 export { default as PinterestIcon } from "./icons/Pinterest";
 export { default as FacebookIcon } from "./icons/Facebook";
 export { default as HamburgerIcon } from "./icons/Hamburger";
+export { default as TestimonyStateIcon } from "./icons/TestimonyState";
+export { default as TrustpliotIcon } from "./icons/Trustpliot";
 
 export { default as Svg } from "./Svg";
 export type { SvgProps } from "./types";

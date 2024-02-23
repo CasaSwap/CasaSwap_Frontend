@@ -18,7 +18,7 @@ const useVideoPlayer = (videoElement, run = false) => {
   };
 
   const handleOnTimeUpdate = () => {
-    if (!videoElement) {
+    if (!videoElement || !videoElement.current) {
       return;
     }
     const progress =
@@ -41,7 +41,7 @@ const useVideoPlayer = (videoElement, run = false) => {
   };
 
   const handleVideoProgress = (event) => {
-    if (!videoElement) {
+    if (!videoElement || !videoElement.current) {
       return;
     }
     const manualChange = Number(event.target.value);
@@ -70,6 +70,9 @@ const useVideoPlayer = (videoElement, run = false) => {
   };
 
   useEffect(() => {
+    if (!videoElement || !videoElement.current) {
+      return;
+    }
     if (run)
       playerState.isMuted
         ? (videoElement.current.muted = true)
@@ -77,6 +80,9 @@ const useVideoPlayer = (videoElement, run = false) => {
   }, [playerState.isMuted, videoElement, run]);
 
   useEffect(() => {
+    if (!videoElement || !videoElement.current) {
+      return;
+    }
     if (run)
       playerState.isPlaying
         ? videoElement.current.play()

@@ -12,7 +12,7 @@ import { SliderWrapper } from "./styles";
 // -----------------------------------------------------------------------------
 
 const CommonSlider =
-  <DataType, ItemOptionType = DataType>(
+  <DataType = any, ItemOptionType = DataType>(
     ItemWrapper: ComponentType<DataType & ItemOptionType>,
     options: SliderOptions = {},
     SwiperWrapper: ComponentType<PropsWithChildren<any>> = SliderWrapper

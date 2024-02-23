@@ -29,7 +29,7 @@ const TextWrapper = styled.p.withConfig({
   shouldForwardProp,
 })<TextProps>`
   color: ${getColor};
-  line-height: 1.5;
+  line-height: 1.2;
   ${({ pointered }) => pointered && `cursor: pointer;`}
   ${({ bgColor, theme }) =>
     bgColor &&

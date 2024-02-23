@@ -22,6 +22,12 @@ export const styleVariants = {
     backgroundColor: "primary",
     color: "white",
   },
+  [variants.OUTLINE]: {
+    backgroundColor: "white",
+    border: "2px solid",
+    borderColor: "primary",
+    color: "primary",
+  },
   [variants.SECONDARY]: {
     backgroundColor: "transparent",
     border: "2px solid",

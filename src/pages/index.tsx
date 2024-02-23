@@ -4,9 +4,13 @@ import {
   HeroView,
   HowWorkView,
   InspirationalView,
+  OldWhyView,
+  PressView,
   SustainableView,
   TestimoniesView,
   WhyUseView,
+  DestinationView,
+  BlogView,
 } from "@/views/home";
 
 const HomePage: React.FC = () => {
@@ -20,6 +24,10 @@ const HomePage: React.FC = () => {
         <InspirationalView />
         <SustainableView />
         <TestimoniesView />
+        <PressView />
+        <OldWhyView />
+        <BlogView />
+        <DestinationView />
       </main>
     </LandingLayout>
   );
